@@ -5,33 +5,31 @@
 
 ul.container{
     display:flex;
-    /* height:250px; */
-    height:80px;
-    list-style-type: none;
+    width:100px;
     background-color: rgba(0,0,0,0.8);
     display:flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    /* display:none; */
 }
 
 li.item{
-    font-weight: 700;
-    font-size: 0.6em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:rgba(255,255,255,0.8);
-    margin: 5px;
-   
-}
+ color:white;
+ cursor: pointer;
+ }
 
 li.item{
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin: 2px;
+    margin-top:12px;
 }
 
 li.item > span{
     margin-top: 2px;
     visibility:hidden;
+    font-size:10px;
+    letter-spacing: 2px;
     transition: all .7s ease;
 }
 
