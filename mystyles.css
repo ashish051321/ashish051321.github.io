@@ -3,6 +3,9 @@
     padding: 0px;
 }
 
+body{
+    padding:20px;
+}
 /* ul.container::after{
     content: "X";
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
