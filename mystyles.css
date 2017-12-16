@@ -26,9 +26,11 @@ div#slider{
 
 div#slider > img{
  cursor:pointer;
- background-color: turquoise;
- border: 1px solid turquoise;
+ background-color: rgba(64,224,208,0.5);
+ border: 1px solid rgba(64,224,208,0.5);
  border-radius: 10px;
+ 
+ 
 }
 
 ul.container{
