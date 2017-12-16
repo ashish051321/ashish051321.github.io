@@ -17,6 +17,19 @@
     line-height:20px;
     text-align: center;
 } */
+div#slider{
+    display:flex;
+    position:fixed;;
+    top:50px;
+    transition: all 0.4s ease-in;
+}
+
+div#slider > img{
+ cursor:pointer;
+ background-color: turquoise;
+ border: 1px solid turquoise;
+ border-radius: 10px;
+}
 
 ul.container{
     display:flex;
@@ -25,15 +38,10 @@ ul.container{
     display:flex;
     flex-direction: column;
     
-    position:fixed;;
-    left:-500px;
-    top:50px;
-    
-    
     border:1px solid white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: all 0.7s cubic-bezier(0, 2.21, 0.67, 0.46);
 }
+
 
 li.item{
  color:white;
