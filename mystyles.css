@@ -24,12 +24,15 @@ ul.container{
     background-color: rgba(0,0,0,0.8);
     display:flex;
     flex-direction: column;
+    
     position:fixed;;
-    left:10px;
+    left:-500px;
     top:50px;
+    
+    
     border:1px solid white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    /* display:none; */
+    transition: all 0.7s cubic-bezier(0, 2.21, 0.67, 0.46);
 }
 
 li.item{
